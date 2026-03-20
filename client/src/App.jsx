@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import io from 'socket.io-client';
 
 // Connect to the server (use localhost for now, later the Render URL)
-const socket = io.connect('http://localhost:3001');
+const socket = io.connect('https://below-the-forest-floor.onrender.com');
 
 function App() {
   const [username, setUsername] = useState("");
